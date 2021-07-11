@@ -1,0 +1,58 @@
+﻿enum ModColor
+{
+    Yellow,
+    Gray,
+    Blue,
+    Green,
+    Orange,
+    Red,
+    Lime,
+    Cyan,
+    Brown,
+    White,
+    Purple,
+    Magenta,
+    Pink
+}
+enum Name
+{
+    Tyler,
+    Hodgy,
+    Earl,
+    Jasper,
+    Frank,
+    Taco,
+    Casey,
+    Domo,
+    Kel,
+    Lefty,
+    Mike,
+    Syd,
+    Lucas
+}
+enum WeaponName
+{
+    Sword,
+    Knife,
+    Taser, 
+    Axe,
+    Spear,
+    Nunchucks,
+    Boomerang,
+    Potion,
+    Poison_Darts,
+    Slingshot,
+    Crossbow,
+    Revolver
+}
+enum Dir
+{
+    N,
+    NE,
+    E,
+    SE,
+    S,
+    SW,
+    W,
+    NW
+}
