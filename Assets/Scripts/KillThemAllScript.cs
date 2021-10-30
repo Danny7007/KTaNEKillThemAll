@@ -13,10 +13,12 @@ public class KillThemAllScript : MonoBehaviour
     public KMAudio Audio;
     public KMBombModule Module;
 
-    public KMSelectable dayCounter;
+    public KMSelectable nextButton;
+    public TextMesh dayText;
     public KMSelectable[] wires;
-    public Material[] ledColors;
-    public Material[] wireColors;
+    public Material[] ledColors,  wireColors;
+    private static Material[] S_wireColors;
+    public Material unlit;
 
     static int moduleIdCounter = 1;
     int moduleId;
@@ -25,10 +27,10 @@ public class KillThemAllScript : MonoBehaviour
     void Awake()
     {
         moduleId = moduleIdCounter++;
+        S_wireColors = wireColors;
         for (int i = 0; i < 13; i++)
         {
             int ix = i;
-            
         }
 
         //Button.OnInteract += delegate () { ButtonPress(); return false; };
